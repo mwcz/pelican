@@ -36,8 +36,8 @@ html_theme = 'default'
 if not on_rtd:
     try:
         import sphinx_rtd_theme
-        html_theme = 'sphinx_rtd_theme'
-        html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+        html_theme = 'pelican_rtd_theme'
+        html_theme_path = ['_themes',]
     except ImportError:
         pass
 
